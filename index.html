@@ -26,12 +26,15 @@
 
   <section id="en">
     <h1>Scaling Laws: Privacy Policy</h1>
-    <p class="dim">Last updated: November 3, 2026</p>
+    <p class="dim">Last updated: November 16, 2026</p>
 
-    <p>Scaling Laws is a game made by Francesco Diotallevi ("I", "me"). This policy explains what happens to your data when you play. The short version: the game has no accounts and no servers of its own. Your progress stays on your phone. The only third party that receives data is Google, to show optional rewarded videos, handle purchases, place you on the leaderboards if you sign in, and tell the game the current time.</p>
+    <p>Scaling Laws is a game made by Francesco Diotallevi ("I", "me"). This policy explains what happens to your data when you play. The short version: the game has no servers of its own and works without an account. Your progress stays on your phone. The only third party that receives data is Google, to show optional rewarded videos, handle purchases, place you on the leaderboards if you sign in, tell the game the current time and, only if you choose to link an optional Google account, keep a copy of your save in the cloud (Google Firebase) and let you join the optional Top players list with a small public card about your game (see "Google account and cloud save" and "Top players" below).</p>
 
     <h2>Data stored on your device</h2>
-    <p>Your save (your AI's name, progress, settings, items you own and a record of purchases already delivered) is stored only on your device. It is never sent to me. Uninstalling the game or clearing its data deletes it.</p>
+    <p>Your save (your AI's name, progress, settings, items you own and a record of purchases already delivered) is stored only on your device. It is never sent to me. Uninstalling the game or clearing its data deletes it from the phone. If you link a Google account, a copy is also kept in the cloud (see below).</p>
+
+    <h2>Usage statistics</h2>
+    <p>The game keeps a small log of gameplay events on your device (for example "first battle won" or "Season level reached"), with no name, e-mail address or contact details. This version of the game does not send that log to anyone. If a version of the game includes Google Firebase Analytics, the same anonymous events are sent to Google only where the law does not require consent or, where it does, only after you switch on "Anonymous statistics" in Settings; you can switch it off at any time.</p>
 
     <h2>Advertising (Google AdMob)</h2>
     <p>The game can show rewarded videos through Google AdMob. Watching them is always optional. To show and measure ads and to prevent fraud, the Google Mobile Ads SDK collects and shares with Google:</p>
@@ -50,6 +53,12 @@
     <h2>Leaderboards (Google Play Games)</h2>
     <p>If you sign in to Google Play Games, the game sends your records (highest token digits, fastest times and completed Generations) to Google Play Games to place you on the leaderboards. Other players see your Play Games name and avatar next to your scores. Google's privacy policy applies to your Play Games profile; you can manage it in the Play Games app. If you don't sign in, nothing is sent.</p>
 
+    <h2>Google account and cloud save (optional)</h2>
+    <p>You can link a Google account from the game (Settings → Account). It is optional: the game works without it. Signing in is handled by Google Firebase Authentication, which receives your Google account identifier, e-mail address and name. The game never sees your password and never shows your e-mail address or Google name to other players. With the account linked, a copy of your save (your AI's name, progress, settings, items you own and a record of purchases already delivered) is stored under your account on Google Firebase (Cloud Firestore) servers, so you can restore it on a new phone or after reinstalling. The save is signed so that edited saves can be recognised. To make sure that only the genuine game installed from Google Play talks to these servers, the game uses Firebase App Check with Google Play Integrity, which sends device and app integrity signals to Google. You can sign out at any time (Settings → Account → Sign out), and you can delete your account, the cloud save and your Top card with "Delete account and online data" (Settings → Account), or by writing to quietenginefds@gmail.com from the e-mail address of the account. Your save on the phone is not deleted.</p>
+
+    <h2>Top players (optional)</h2>
+    <p>The game has a list of top players. Seeing it needs no account. Joining needs the Google account described above, so your spot stays yours if you change phone or reinstall. Nothing about you is shown unless you tap "Join the Top". If you join, a public card is stored on Google Firebase (Cloud Firestore) servers and shown to other players: the name you gave your AI, your player level and XP, the cosmetics you use (theme, emblem, typeface, name effect, title), your game counters (Generations completed, record token digits, AGIs, Singularities, goals, Campaign stars, wins and bosses, engineers, fastest Generation, play time), whether you own the Founder pack, the game version and the time of the last update. Your e-mail address, Google name, location, device identifier and purchase data are not included. You can leave at any time with "Leave the Top" in the game, which deletes your card; the card is also deleted with your account or if you ask me by e-mail. Names can be reported by other players and cards that break the rules can be hidden. The game is intended for adults.</p>
+
     <h2>Time check</h2>
     <p>To keep progress fair when the phone's clock is changed, the game asks a Google server (the same blank page Android uses to check your connection) for the current time and reads only the date in the reply. The request contains no information about you or your game. As with any web request, Google receives your IP address.</p>
 
@@ -57,13 +66,13 @@
     <p>If you turn reminders on, the game schedules them on your device (for example, when your offline storage is full). No data is sent anywhere to do this, and you can turn them off at any time in System → Settings.</p>
 
     <h2>Sharing and reviews</h2>
-    <p>The Share button opens your phone's share menu with a short text; nothing is sent unless you choose an app to share with. Review prompts are shown by Google Play.</p>
+    <p>The Share buttons open your phone's share menu with a short text or with an image drawn on your device (the name you gave your AI and a game result); nothing is sent unless you choose an app to share with. Review prompts are shown by Google Play.</p>
 
     <h2>Children</h2>
-    <p>The game is not directed at children under 13 and I do not knowingly collect data from them.</p>
+    <p>The game is not directed at children and I do not knowingly collect data from them. Interviews paid with Qubits are random draws and are for adults only: the game asks you to confirm that you are 18 or older before the first one, and they are switched off in countries that ban or restrict them (currently Belgium, the Netherlands and Brazil). Free interviews remain available to everyone.</p>
 
     <h2>Your rights</h2>
-    <p>I do not hold any personal data about you, so there is nothing for me to access, correct or delete. For data processed by Google, see the Google Privacy Policy. For any question about this policy, write to quietenginefds@gmail.com.</p>
+    <p>I hold no personal data about you apart from what the optional Google account involves (account identifier, e-mail address, cloud save) and the optional Top card. You can delete all of it yourself with "Delete account and online data" in the game (Settings → Account), the Top card alone with "Leave the Top", or by writing to me. For data processed by Google, see the Google Privacy Policy. For any question about this policy, write to quietenginefds@gmail.com.</p>
 
     <h2>Changes</h2>
     <p>If this policy changes, the new version will be published at this address with a new date.</p>
@@ -73,12 +82,15 @@
 
   <section id="it" lang="it">
     <h1>Scaling Laws: informativa sulla privacy</h1>
-    <p class="dim">Ultimo aggiornamento: 3 novembre 2026</p>
+    <p class="dim">Ultimo aggiornamento: 16 novembre 2026</p>
 
-    <p>Scaling Laws è un gioco di Francesco Diotallevi. Questa informativa spiega cosa succede ai tuoi dati mentre giochi. In breve: il gioco non ha account né server propri e i tuoi progressi restano sul telefono. L'unico soggetto esterno che riceve dati è Google, per mostrare i video con premio (facoltativi), gestire gli acquisti, metterti in classifica se accedi e dire al gioco che ora è.</p>
+    <p>Scaling Laws è un gioco di Francesco Diotallevi. Questa informativa spiega cosa succede ai tuoi dati mentre giochi. In breve: il gioco non ha server propri e funziona senza account. I tuoi progressi restano sul telefono. L'unico soggetto esterno che riceve dati è Google, per mostrare i video con premio (facoltativi), gestire gli acquisti, metterti in classifica se accedi, dire al gioco che ora è e, solo se scegli di collegare un account Google facoltativo, conservare una copia del salvataggio nel cloud (Google Firebase) e farti partecipare alla lista facoltativa «Top giocatori» con una piccola scheda pubblica sulla tua partita (vedi «Account Google e salvataggio nel cloud» e «Top giocatori» più sotto).</p>
 
     <h2>Dati salvati sul dispositivo</h2>
-    <p>Il salvataggio (il nome della tua IA, i progressi, le impostazioni, gli oggetti che possiedi e l'elenco degli acquisti già consegnati) resta solo sul tuo dispositivo e non viene mai inviato a me. Disinstallando il gioco o cancellandone i dati, il salvataggio viene eliminato.</p>
+    <p>Il salvataggio (il nome della tua IA, i progressi, le impostazioni, gli oggetti che possiedi e l'elenco degli acquisti già consegnati) resta solo sul tuo dispositivo e non viene mai inviato a me. Disinstallando il gioco o cancellandone i dati, il salvataggio viene eliminato dal telefono. Se colleghi un account Google, una copia resta anche nel cloud (vedi sotto).</p>
+
+    <h2>Statistiche d'uso</h2>
+    <p>Il gioco tiene sul tuo dispositivo un piccolo registro di eventi di gioco (per esempio «prima battaglia vinta» o «livello di Stagione raggiunto»), senza nome, indirizzo e-mail o contatti. Questa versione del gioco non manda quel registro a nessuno. Se una versione del gioco include Google Firebase Analytics, gli stessi eventi anonimi vengono inviati a Google solo dove la legge non richiede il consenso oppure, dove lo richiede, solo dopo che hai acceso «Statistiche anonime» nelle Impostazioni; puoi spegnerle quando vuoi.</p>
 
     <h2>Pubblicità (Google AdMob)</h2>
     <p>Il gioco può mostrare video con premio tramite Google AdMob; guardarli è sempre facoltativo. Per mostrare e misurare gli annunci e per prevenire le frodi, l'SDK Google Mobile Ads raccoglie e condivide con Google:</p>
@@ -97,6 +109,12 @@
     <h2>Classifiche (Google Play Giochi)</h2>
     <p>Se accedi a Google Play Giochi, il gioco invia i tuoi record (cifre dei token, tempi migliori e Generazioni completate) a Google Play Giochi per metterti in classifica. Gli altri giocatori vedono il tuo nome e la tua immagine di Play Giochi accanto ai punteggi. Per il tuo profilo di Play Giochi valgono le regole sulla privacy di Google, e lo gestisci dall'app Play Giochi. Se non accedi, non viene inviato niente.</p>
 
+    <h2>Account Google e salvataggio nel cloud (facoltativo)</h2>
+    <p>Dal gioco puoi collegare un account Google (Impostazioni → Account). È facoltativo: il gioco funziona anche senza. L'accesso è gestito da Google Firebase Authentication, che riceve l'identificativo del tuo account Google, l'indirizzo e-mail e il nome. Il gioco non vede la tua password e non mostra mai il tuo indirizzo e-mail né il tuo nome Google agli altri giocatori. Con l'account collegato, una copia del salvataggio (il nome della tua IA, i progressi, le impostazioni, gli oggetti che possiedi e l'elenco degli acquisti già consegnati) viene conservata sotto il tuo account sui server di Google Firebase (Cloud Firestore), così puoi ripristinarla su un telefono nuovo o dopo aver reinstallato il gioco. Il salvataggio è firmato, per riconoscere quelli modificati a mano. Per essere sicuri che parli con questi server solo il gioco vero installato da Google Play, il gioco usa Firebase App Check con Google Play Integrity, che invia a Google segnali sull'integrità del dispositivo e dell'app. Puoi uscire dall'account quando vuoi (Impostazioni → Account → Esci dall'account) e puoi cancellare account, salvataggio nel cloud e scheda della Top con «Cancella account e dati online» (Impostazioni → Account), oppure scrivendo a quietenginefds@gmail.com dall'indirizzo e-mail dell'account. Il salvataggio sul telefono non viene cancellato.</p>
+
+    <h2>Top giocatori (facoltativo)</h2>
+    <p>Il gioco ha una lista dei migliori giocatori. Per vederla non serve nessun account. Per partecipare serve l'account Google descritto sopra, così il tuo posto resta tuo anche se cambi telefono o reinstalli. Di te non si vede niente finché non tocchi «Partecipa alla Top». Se partecipi, una scheda pubblica viene conservata sui server di Google Firebase (Cloud Firestore) e mostrata agli altri giocatori: il nome che hai dato alla tua IA, il tuo livello giocatore e l'XP, i cosmetici che usi (tema, emblema, carattere, effetto del nome, titolo), i contatori della partita (Generazioni completate, record di cifre dei token, AGI, Singolarità, obiettivi, stelle, vittorie e boss della Campagna, ingegneri, Generazione più veloce, tempo di gioco), se hai il pacchetto Fondatore, la versione del gioco e l'ora dell'ultimo aggiornamento. Non include indirizzo e-mail, nome Google, posizione, identificativi del dispositivo né dati sugli acquisti. Puoi uscire quando vuoi con «Esci dalla Top» nel gioco, che cancella la tua scheda; la scheda si cancella anche con il tuo account o se me lo chiedi per e-mail. I nomi possono essere segnalati dagli altri giocatori e le schede che non rispettano le regole possono essere nascoste. Il gioco è pensato per un pubblico adulto.</p>
+
     <h2>Controllo dell'ora</h2>
     <p>Per mantenere equi i progressi quando si cambia l'orologio del telefono, il gioco chiede l'ora esatta a un server di Google (la stessa pagina vuota che Android usa per controllare la connessione) e legge solo la data nella risposta. La richiesta non contiene informazioni su di te né sulla tua partita. Come in ogni richiesta web, Google riceve il tuo indirizzo IP.</p>
 
@@ -104,13 +122,13 @@
     <p>Se attivi i promemoria, il gioco li programma sul tuo dispositivo (per esempio quando il tempo offline è pieno). Per farlo non invia dati a nessuno, e puoi disattivarli quando vuoi da Sistema → Impostazioni.</p>
 
     <h2>Condivisione e recensioni</h2>
-    <p>Il pulsante Condividi apre il menu di condivisione del telefono con un breve testo: non parte niente finché non scegli un'app. Le richieste di recensione le mostra Google Play.</p>
+    <p>I pulsanti Condividi aprono il menu di condivisione del telefono con un breve testo o con un'immagine disegnata sul tuo dispositivo (il nome che hai dato alla tua IA e un risultato di gioco): non parte niente finché non scegli un'app. Le richieste di recensione le mostra Google Play.</p>
 
     <h2>Minori</h2>
-    <p>Il gioco non è rivolto ai minori di 13 anni e non raccolgo consapevolmente dati che li riguardano.</p>
+    <p>Il gioco non è rivolto ai minori e non raccolgo consapevolmente dati che li riguardano. I colloqui pagati con i Qubit sono estrazioni casuali e sono riservati ai maggiorenni: prima del primo il gioco chiede di confermare di avere 18 anni o più, e nei Paesi che li vietano o li limitano (oggi Belgio, Paesi Bassi e Brasile) restano spenti. I colloqui gratuiti restano disponibili per tutti.</p>
 
     <h2>I tuoi diritti</h2>
-    <p>Non conservo dati personali che ti riguardano, quindi non c'è niente da consultare, correggere o cancellare presso di me. Per i dati trattati da Google valgono le norme sulla privacy di Google. Per qualsiasi domanda su questa informativa scrivi a quietenginefds@gmail.com.</p>
+    <p>Non conservo dati personali che ti riguardano, a parte quelli dell'account Google facoltativo (identificativo dell'account, indirizzo e-mail, salvataggio nel cloud) e la scheda facoltativa della Top. Puoi cancellare tutto da solo con «Cancella account e dati online» nel gioco (Impostazioni → Account), la sola scheda della Top con «Esci dalla Top», oppure scrivendomi. Per i dati trattati da Google valgono le norme sulla privacy di Google. Per qualsiasi domanda su questa informativa scrivi a quietenginefds@gmail.com.</p>
 
     <h2>Modifiche</h2>
     <p>Se l'informativa cambia, la nuova versione sarà pubblicata a questo indirizzo con una nuova data.</p>
